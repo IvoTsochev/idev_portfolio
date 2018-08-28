@@ -1,34 +1,63 @@
 body{
   background: #ffffff;
+  background-image: url(img/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1{
   text-align: center;
-  padding-top: 70px;
+  /* padding-top: 70px; */
+  color: white;
+  font-size: 4em;
+  padding-top: 50px;
 }
 
-h1 {
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+.nav {
+  margin-top: 80px;
+  display: block;
+  width: 100%;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:link{
+  color: white;
+}
+a:visited{
+   color: orange;
+}
+a:hover{
+   color: blue;
+}
+
+.nav-item{
+  margin: 50px;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 300px;
+}
+
+#gallery{
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+
+
+#first-par{
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .topnav {
     background-color: #333;
     overflow: hidden;
-}
-
-#topnav{
-  padding-top: 30px;
 }
 
 #first-par{
