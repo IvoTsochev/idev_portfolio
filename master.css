@@ -1,6 +1,5 @@
 body{
-  background: #ffffff;
-  background-image: url(img/background2.jpg);
+  background-image: url(img/background4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10,11 +9,11 @@ h1{
   /* padding-top: 70px; */
   color: white;
   font-size: 4em;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .nav {
-  margin-top: 80px;
+  margin-top: 27px;
   display: block;
   width: 100%;
   font-size: 2em;
@@ -26,19 +25,22 @@ a:link{
   color: white;
 }
 a:visited{
-   color: orange;
+   color: white;
 }
 a:hover{
-   color: blue;
+   color: red;
 }
 
 .nav-item{
   margin: 50px;
 }
 
-#avatar {
+.avatar {
   border-radius: 50%;
-  width: 300px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
 }
 
 #gallery{
@@ -89,4 +91,43 @@ a:hover{
  width: 80%;
  margin: 30px auto;
  overflow: hidden;
+}
+
+.softuni{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#softuni{
+  color: white;
+}
+
+#udemy {
+  color: white;
+  margin-top: 50px;
+}
+
+#telenor {
+  color: white;
+  margin-top: 50px;
+}
+
+#github {
+  width: 100px;
+  height: 100px;
+}
+
+#facebook {
+  width: 100px;
+  height: 100px;
+}
+
+#linkedin {
+  width: 100px;
+  height: 100px;
+}
+
+#instagram {
+  width: 100px;
+  height: 100px;
 }
