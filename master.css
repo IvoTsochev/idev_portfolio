@@ -31,8 +31,9 @@ a:hover{
    color: red;
 }
 
-.nav-item{
+.nav-item {
   margin: 50px;
+  transition: all 1s;
 }
 
 .avatar {
@@ -41,6 +42,11 @@ a:hover{
   height: 150px;
   display: block;
   margin: 0 auto;
+  transition: all 1s;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
 }
 
 #gallery{
@@ -53,8 +59,7 @@ a:hover{
 
 #first-par{
   color: white;
-  padding-left: 15%;
-  padding-right: 15%;
+  text-align: center;
 }
 
 .topnav {
@@ -63,7 +68,6 @@ a:hover{
 }
 
 #first-par{
-  padding-top: 50px;
 }
 
 .nav-item{
@@ -94,8 +98,8 @@ a:hover{
 }
 
 .softuni{
-  margin-left: 100px;
-  margin-top: 100px;
+  margin: 50px;
+  text-align: center;
 }
 
 #softuni{
@@ -115,19 +119,47 @@ a:hover{
 #github {
   width: 100px;
   height: 100px;
+  transition: all 1s;
+}
+
+#github:hover {
+  transform: scale(1.1);
 }
 
 #facebook {
   width: 100px;
   height: 100px;
+  padding-left: 30px;
+  transition: all 1s;
+}
+
+#facebook:hover {
+  transform: scale(1.1);
 }
 
 #linkedin {
   width: 100px;
   height: 100px;
+  padding-left: 30px;
+  transition: all 1s;
+}
+
+#linkedin:hover {
+  transform: scale(1.1);
 }
 
 #instagram {
   width: 100px;
   height: 100px;
+  padding-left: 30px;
+  transition: all 1s;
+}
+
+#instagram:hover {
+  transform: scale(1.1);
+}
+
+#cont {
+  text-align: center;
+  margin-top: 100px;
 }
